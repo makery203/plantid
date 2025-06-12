@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">plantid</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="welcome_message">1</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+<!-- In res/values/strings.xml -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="app_name_photos">1</string>
+    <string name="camera_permission_granted">Camera permission granted</string>
+    <string name="camera_permission_denied">Camera permission denied. Camera features will be unavailable.</string>
+    <string name="camera_permission_rationale">Camera permission is required to identify plants using the camera.</string>
+    <string name="image_load_failed">Failed to load image from gallery.</string>
+    <string name="identifying_plant">Identifying plant...</string>
+    <string name="photo_capture_failed">Photo capture failed: %1$s</string>
+    <string name="bitmap_save_failed">Failed to save image: %1$s</string>
+    <string name="network_error">Network Error: %1$s</string>
+    <string name="camera_start_failed">Failed to start camera: %1$s</string>
+    <string name="camera_not_ready">Camera not ready.</string>
+    <string name="no_results_found">No identification results found.</string>
+    <string name="api_error">API Error: %1$d - %2$s</string>
+    <string name="snake_plant_mother_in_law_s_tongue">Snake Plant, Mother-in-Law\'s Tongue</string>
+    <string name="scientific_classification">Scientific Classification</string>
+    <string name="genus_sansevieria">Genus: Sansevieria</string>
+    <string name="family_asparagaceae">Family: Asparagaceae</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="sansevieria_trifasciata">Sansevieria trifasciata</string>
+    <string name="identification_confidence_92">Identification Confidence: 92%</string>
+    <string name="no_plant_data" />
+    <string name="plant_image">Plant Image</string>
+    <string name="scientific_name">Scientific Name:</string>
+    <string name="common_names">Common Names:</string>
+    <string name="family">Family:</string>
+    <string name="genus">Genus:</string>
+    <string name="confidence_score">Confidence Score:</string>
+    <string name="more_info">More Info:</string>
+
+    <!-- <string name="app_name">PlantID</string> -->
+
+    <!-- <string name="welcome_message">Welcome, %1$s!</string> -->
+</resources>

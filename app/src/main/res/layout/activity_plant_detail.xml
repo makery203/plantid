@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivPlantImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder_plant" />
+
+        <TextView
+            android:id="@+id/tvScientificName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scientific Name"
+            android:textSize="18sp"
+            android:paddingTop="12dp" />
+
+        <TextView
+            android:id="@+id/tvCommonNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Common Names" />
+
+        <TextView
+            android:id="@+id/tvFamily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Family" />
+
+        <TextView
+            android:id="@+id/tvGenus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Genus" />
+
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confidence Score" />
+
+        <TextView
+            android:id="@+id/tvWiki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More Info" />
+    </LinearLayout>
+</ScrollView>
